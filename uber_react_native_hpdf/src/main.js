@@ -15,6 +15,7 @@ export default class Root extends React.Component{
 	}
 
 	render(){
+		console.log("Testing render")
 		return this.renderApp();
 	}
 }
