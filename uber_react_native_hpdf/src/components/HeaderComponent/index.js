@@ -6,7 +6,7 @@ import styles from "./HeaderComponentStyles";
 
 export const HeaderComponent =  ({logo})=>{
 	return (
-		<Header style={{backgroundColor:"#FF5E3A"}} iosBarStyle="light-content">
+		<Header style={{backgroundColor:"#FFFFF"}} iosBarStyle="light-content">
 			<Left>
 				<Button transparent>
 					<Icon name="bars" style={styles.icon} />
@@ -15,7 +15,7 @@ export const HeaderComponent =  ({logo})=>{
 			<Body>{logo &&
 					<Image resizeMode="contain" style={styles.logo} source={logo}/>
 					||
-					<Text style={styles.headerText}>Driver on the way</Text>
+					<Text style={styles.headerText}>Your Driver is on the way...</Text>
 				}
 			</Body>
 
