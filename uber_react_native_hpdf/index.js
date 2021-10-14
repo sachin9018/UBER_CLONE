@@ -3,3 +3,4 @@ import App from './App';
 
 AppRegistry.registerComponent('uber_hpdf', () => App);
 
+console.log('Hello World');
