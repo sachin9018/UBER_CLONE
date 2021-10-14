@@ -1,9 +1,9 @@
 const calculateFare = (baseFare, timeRate, time,  distanceRate, distance, surge)=>{
-	const distanceInKm = distance * 0.001;
-	const timeInMin = time * 0.0166667;
+	const distanceInKm = distance * 0.010;
+	const timeInMin = time * 0.016;
 	const pricePerKm = timeRate * timeInMin;
 	const pricePerMinute = distanceRate * distanceInKm;
-	const totalFare = (baseFare + pricePerKm + pricePerMinute) * surge;
+	const totalFare = (baseFare + pricePerKm + pricePerMinute) * surge - 100;
 	return Math.round(totalFare);
 };
 
