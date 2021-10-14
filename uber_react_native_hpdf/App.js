@@ -9,6 +9,7 @@ import {
 import Root from "./src/main";
 export default class Uber extends Component {
   render() {
+    console.log("Testing Render in App.js");
     return (
       <View style={styles.container}>
         <Root {...this.props}/>
