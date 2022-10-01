@@ -6,7 +6,7 @@ export default class Root extends React.Component{
 	renderApp(){
 		const initialState = window.___INTITIAL_STATE__;
 		const store = createStore(initialState);
-
+		console.log(store);
 		return (
 			<AppContainer store={store} />
 
