@@ -23,14 +23,14 @@ const styles = StyleSheet.create({
     flex: 1
   },
   welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+    fontSize: 30,
+    textAlign: 'Justify',
+    margin: 12,
   },
   instructions: {
     textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+    color: 'black',
+    marginBottom: 2,
   },
 });
 
