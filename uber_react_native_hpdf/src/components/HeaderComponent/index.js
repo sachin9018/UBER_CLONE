@@ -8,14 +8,14 @@ export const HeaderComponent =  ({logo})=>{
 	return (
 		<Header style={{backgroundColor:"#FFFFF"}} iosBarStyle="light-content">
 			<Left>
-				<Button transparent>
+				<Button>
 					<Icon name="bars" style={styles.icon} />
 				</Button>
 			</Left>
 			<Body>{logo &&
 					<Image resizeMode="contain" style={styles.logo} source={logo}/>
 					||
-					<Text style={styles.headerText}>Your Driver is on the way...</Text>
+					<Text style={styles.headerText}>Your Uber is On its way ...</Text>
 				}
 			</Body>
 
